@@ -1,0 +1,18 @@
+algoritmo Numero_Mayor 
+definir n1, n2, n3 como entero;
+escribir "ingrese numero 1 : ";
+leer n1;
+escribir "ingrese numero 2 : "; 
+leer n2;
+escribir "ingrese numero 3 : "; 
+leer n3;
+si ( (n1 > n2) y (n1 > n3) ) entonces;
+escribir "El mayor es : ", n1; 
+sino;
+si ( (n2 > n1) y (n2 > n3) ) entonces;
+escribir "El mayor es : ", n2;
+sino;
+escribir "El mayor es : ", n3; 
+Finsi 
+Finsi
+finalgoritmo
